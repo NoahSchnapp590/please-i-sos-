@@ -1,49 +1,35 @@
-*{margin: 0; padding: 0;}
+* {
+	margin: 0;
+	padding: 0;
+}
 
-.header{
+.header {
 	background: #E29500;
 	position: fixed;
 	width: 100%;
 }
 
-.skills__item{
-	margin-top:50px ; 
-}
 
 
-.container
-{
+
+.container {
 	max-width: 1512px;
 	margin: 0 auto;
 }
-.nav__list
-{
+
+.nav__list {
 	display: flex;
 	list-style: none;
 	position: absolute;
 	left: 1000px;
 }
-.header
-{
-	background: #E29500;
-}
-.container
-{
-	max-width: 1512px;
-	margin: 0 auto;
-}
-.nav__list
-{
-	display: flex;
-	list-style: none;
-}
-.nav__item
-{
+
+.nav__item {
 	margin-right: 65px;
 
 }
-.burger
-{
+
+.burger {
 	width: 50px;
 	height: 50px;
 	background: transparent;
@@ -51,53 +37,54 @@
 	cursor: pointer;
 	display: none;
 }
-.burger__line
-{
+
+.burger__line {
 	width: 100%;
 	height: 8px;
 	background: #00335E;
 	margin-bottom: 6px;
 
 }
-.container__header
-{
+
+.container__header {
 	display: flex;
 	align-items: center;
 	padding: 36px;
 }
-.header__img
-{
+
+.header__img {
 	margin-right: auto;
+
 }
-.nav__item
-{
+
+.nav__item {
 	color: #E4E4E4;
-font-family: Amatic SC;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+	font-family: Amatic SC;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
-.header__img
-{
+
+.header__img {
 	width: 110px;
 	height: 79px;
-	}
-.hero-block
-{
+}
+
+.hero-block {
 	background: #00335E;
 }
-.hero-block__title
-{
+
+.hero-block__title {
 	color: #FFF;
-	font-family:Amatic SC;
+	font-family: Amatic SC;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 	font-size: 64px;
 }
-.hero-block__text
-{
+
+.hero-block__text {
 	color: #FFF;
 	font-family: Amatic SC;
 	font-size: 40px;
@@ -105,65 +92,65 @@ line-height: normal;
 	font-weight: 400;
 	line-height: normal;
 }
-.hero-block__btn
-{
+
+.hero-block__btn {
 	color: #000;
-font-family: Amatic SC;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+	font-family: Amatic SC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 
-width: 224px;
-height: 47px;
-flex-shrink: 0;
+	width: 224px;
+	height: 47px;
+	flex-shrink: 0;
 
-border-radius: 6px;
-background: var(--orange, linear-gradient(87deg, #E2A300 4.47%, #E29500 95.53%));
-box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+	border-radius: 6px;
+	background: var(--orange, linear-gradient(87deg, #E2A300 4.47%, #E29500 95.53%));
+	box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+	text-decoration: none;
 }
-.container__hero-block
-{
+
+.container__hero-block {
 	display: flex;
 	justify-content: space-between;
 	padding: 285px 335px 163px 202px;
-
 }
-.hero-block__content
-{
+
+.hero-block__content {
 	width: 568px;
 }
-.skills__full1
-{
+
+.skills__full1 {
 	width: 40%;
 	height: 10px;
 	background: #2C2C2C;
 }
-.skills__full2
-{
+
+.skills__full2 {
 	width: 80%;
 	height: 10px;
 	background: #2C2C2C;
 }
-.skills__full3
-{
+
+.skills__full3 {
 	width: 30%;
 	height: 10px;
 	background: #2C2C2C;
 }
-.skills__done
-{
+
+.skills__done {
 	width: 356px;
 	height: 10px;
 	background: #E29500;
 }
-.about
-{
+
+.about {
 	background: #00335D;
 	padding: 66px;
-	}
-.about__title
-{
+}
+
+.about__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 96px;
@@ -172,8 +159,8 @@ box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
 	line-height: normal;
 	text-align: center;
 }
-.skills__title
-{
+
+.skills__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 48px;
@@ -181,8 +168,8 @@ box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
 	font-weight: 400;
 	line-height: normal;
 }
-.skills__text
-{
+
+.skills__text {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 48px;
@@ -190,8 +177,8 @@ box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
 	font-weight: 400;
 	line-height: normal;
 }
-.skills__name
-{
+
+.skills__name {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 36px;
@@ -199,19 +186,18 @@ box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
 	font-weight: 400;
 	line-height: normal;
 }
-.skills__list
-{
+
+.skills__list {
 	list-style: none;
 }
-.about__content
-{
+
+.about__content {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.video__title
-{
+.video__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 96px;
@@ -220,35 +206,35 @@ box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
 	line-height: normal;
 	text-align: center;
 }
-.video
-{
-background: #00335D;
-padding: 41px;
+
+.video {
+	background: #00335D;
+	padding: 41px;
 }
-.gallery__list
-{
+
+.gallery__list {
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
 }
-.gallery__item
-{
+
+.gallery__item {
 	margin-top: 20px;
 	width: 20%;
 }
-.gallery__img
-{
+
+.gallery__img {
 	width: 96%;
 	transition: 1s;
-	
+
 }
-.gallery
-{
+
+.gallery {
 	background: #00335D;
 	padding: 41px;
 }
-.gallery__title
-{
+
+.gallery__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 96px;
@@ -257,46 +243,45 @@ padding: 41px;
 	line-height: normal;
 	text-align: center;
 }
-.gallery__img:hover
-{
-width: 100%;
+
+.gallery__img:hover {
+	width: 100%;
 }
-.footer__item
-{
+
+.footer__item {
 	width: 50px;
 	list-style: none;
 	margin-right: 40px;
 }
 
-.footer__img
-{
+.footer__img {
 	width: 100%;
 
 }
-.footer__list
-{
+
+.footer__list {
 	display: flex;
 
 }
-.container__footer
-{
-	 display: flex;
-	 background:#E29500;
-	 padding: 50px ;
-	 justify-content: space-between;
+
+.container__footer {
+	display: flex;
+	background: #E29500;
+	padding: 50px;
+	justify-content: space-between;
 }
-.footer__title
-{
+
+.footer__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 }
-.footer__text
-{
+
+.footer__text {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 }
-.towns__title__one
-{
+
+.towns__title__one {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 96px;
@@ -305,16 +290,16 @@ width: 100%;
 	line-height: normal;
 	text-align: center;
 }
-.towns__group
-{
+
+.towns__group {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	list-style: none;
 	margin-bottom: 141px;
 }
-.towns__title
-{
+
+.towns__title {
 	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 36px;
@@ -322,8 +307,8 @@ width: 100%;
 	font-weight: 400;
 	line-height: normal;
 }
-.towns__description
-{
+
+.towns__description {
 	color: #E4E4E4;
 	font-size: 25px;
 	font-style: normal;
@@ -337,24 +322,24 @@ width: 100%;
 	justify-content: center;
 	flex-shrink: 0;
 }
-.towns
-{
+
+.towns {
 	background: #00335D;
 	padding: 41px;
 	align-items: center;
 }
-.towns__list
-{
+
+.towns__list {
 	list-style: none;
 }
-.img__second
-{
+
+.img__second {
 	width: 247px;
 	height: 362px;
 }
-.towns__btn
-{
-	color:#E4E4E4 ;
+
+.towns__btn {
+	color: #E4E4E4;
 	font-family: Amatic SC;
 	font-size: 24px;
 	font-style: normal;
@@ -362,75 +347,226 @@ width: 100%;
 	line-height: normal;
 	width: 224px;
 	height: 47px;
-	background:#E29500;
-}
-.img__second
-{
- margin-bottom: 50px;
+	background: #E29500;
 }
 
-.btn__inf{
-	background: #E29500;
-	height: 50px;
-	width: 100%;
-	transition: 1s;
+.img__second {
+	margin-bottom: 50px;
 }
-.btn__inf:hover{
+
+.btn__inf {
 	background: #E29500;
-	width: 120%;
+	height: 60px;
+	width: 200px;
+	transition: 1s;
+	color: #000;
+	font-family: Amatic SC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-left: 800px;
+}
+.info{
+	text-decoration: none;
+	/* width: 100px; */
+}
+
+.btn__inf:hover {
+	background: #E29500;
+	width: 250px;
 	height: 70px;
 }
-@media(max-width:430px)
-{
-	.container
-	{
+
+.skills__item {
+	margin-top: 50px;
+}
+.dropdown-content{
+	display: none;
+}
+.towns__img__ad{
+	display: none;
+}
+
+@media(max-width:430px) {
+	
+	.btn__inf{
+		margin-left: 40px;
+	}
+	
+	.header{
+		height: 90px;
+		z-index: 1;
+	}
+	.header__img{
+		height: 59px;
+		width: 90px;
+		position: absolute;
+		left: 20px;
+	}
+	.container__header{
+		padding-top: 15px;
+		justify-content: space-between;
+	}
+	.container {
 		max-width: 310px;
 	}
-	.nav__item
-	{
+
+	.nav__item {
 		display: none;
 	}
-	.burger
-	{
+
+	.dropbtn {
+		background-color: #4CAF50;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+	}
+
+	/* Контейнер <div> - необходимо разместить выпадающий контент */
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	/* Выпадающий контент (скрыт по умолчанию) */
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+	}
+
+	/* Ссылки внутри выпадающего */
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
 		display: block;
 	}
-	.hero-block__img
-	{
-		width: 100%;
+
+	/* Изменить цвет выпадающих ссылок при наведении */
+	.dropdown-content a:hover {
+		background-color: #f1f1f1;
+		left: 0;
 	}
-	.container__hero-block
-	{
+
+	/* Показать выпадающее меню при наведении */
+	.dropdown:hover 
+
+	.dropdown-content {
+		display: block;
+		left: 0;
+	}
+
+	/* Изменить цвет фона кнопки выпадающего списка, когда отображается содержимое выпадающего списка. */
+	.dropdown:hover 
+
+	.dropbtn {
+		background-color: #3e8e41;
+	}
+
+	.burger {
+		display: block;
+	}
+	.dropdown{
+		position: absolute;
+		right: 50px;
+		top: 20px;
+	}
+
+	.hero-block__img {
+		width: 100%;
+		position: relative;
+		top: 10px;
+		z-index: 0;
+	}
+
+	.container__hero-block {
 		flex-direction: column;
 		padding: 0;
-
+		position: relative;
+		top: 100px;
 	}
-	.hero-block__content
-	{
+	.container__about{
+		padding-top: 50px;
+	}
+
+	/*.hero-block__btn{
+		padding-top: 50px;
+	}*/
+	.chitat_r{
+		padding-top: 110px;
+		text-decoration: none;
+	}
+
+	.hero-block__content {
 		width: 100%;
 		text-align: center;
 	}
-	.about__content
-	{
+
+	.about__content {
 		flex-direction: column;
 	}
-	.video__video
-	{
+
+	.video__video {
 		height: 300px;
 	}
-	.gallery__item
-	{
+
+	.gallery__item {
 		width: 100%;
 	}
-	.container__footer
-	{
+
+	.container__footer {
 		flex-direction: column;
 	}
-	.about__img
-	{
+
+	.about__img {
 		width: 200px;
 	}
-	.about__title
-	{
+
+	.about__title {
 		width: 100%;
 		text-align: center;
+	}
+	.dropdown-content{
+		display: none;
+	}
+	.header__img{
+	margin-top: 9px;
+	}
+	.about__img{
+		padding-top: 30px;
+	}
+	.btn__inf{
+		color: #000;
+	font-family: Amatic SC;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	}
+	.t__l{
+		flex-direction: column;
+	}
+	.towns__list{
+		flex-direction: column;
+		
+	}
+	.towns__group{
+		flex-direction: column;
+	}
+	.towns__img{
+		width: 100%;
+	}
+	.towns__img{
+		display: block;
+	}
+	.towns__img__ad{
+		display: none;
+	}
 	}
