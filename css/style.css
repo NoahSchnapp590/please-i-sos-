@@ -569,4 +569,54 @@
 	.towns__img__ad{
 		display: none;
 	}
+	.towns__description {
+				color: #E4E4E4;
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		font-family: Amatic SC;
+		display: flex;
+		width: 469px;
+		height: 209px;
+		flex-direction: column;
+		justify-content: center;
+		flex-shrink: 0;
+	text-align: center;
+	width: 100%;
 	}
+	.towns__title{
+		text-align: center;
+	}
+
+	}
+@media (min-width:431px) and (max-width: 850px) {
+	.hero-block__img{
+		margin-right: 30px;
+		}
+	.about__img{
+		width: 300px;
+	}
+	.towns__group{
+		flex-direction: column;
+	}
+	.towns__description {
+		color: #E4E4E4;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-family: Amatic SC;
+display: flex;
+width: 469px;
+height: 209px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+text-align: center;
+width: 100%;
+}
+.towns__title{
+text-align: center;
+}
+}
