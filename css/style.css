@@ -460,7 +460,7 @@
 
 	.dropdown-content {
 		display: block;
-		right: 0;
+	right: 0;
 	}
 
 	/* Изменить цвет фона кнопки выпадающего списка, когда отображается содержимое выпадающего списка. */
@@ -475,7 +475,7 @@
 	}
 	.dropdown{
 		position: absolute;
-		right: 50px;
+		right: 20px;
 		top: 20px;
 	}
 
