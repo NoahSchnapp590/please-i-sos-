@@ -436,7 +436,7 @@
 		display: none;
 		position: absolute;
 		background-color: #f9f9f9;
-		min-width: 160px;
+		min-width: 120px;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
 	}
@@ -460,7 +460,7 @@
 
 	.dropdown-content {
 		display: block;
-		left: 0;
+		right: 0;
 	}
 
 	/* Изменить цвет фона кнопки выпадающего списка, когда отображается содержимое выпадающего списка. */
@@ -555,6 +555,7 @@
 	}
 	.towns__list{
 		flex-direction: column;
+		padding-top: 50px;
 		
 	}
 	.towns__group{
@@ -587,6 +588,9 @@
 	}
 	.towns__title{
 		text-align: center;
+	}
+	.towns__title__one{
+		padding-top: 50px;
 	}
 
 	}
